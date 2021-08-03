@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="game_container">
+      <div id="main_game_container">
+        <div id="snake_border">
+          <div class="main_game_row" id="main_game_row_1">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_2">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_3">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_4">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_5">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_6">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_7">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_8">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_9">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_10">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_11">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_12">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_13">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_14">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_15">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_16">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_17">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_18">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_19">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+          <div class="main_game_row" id="main_game_row_20">
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+            <div class="snake_box box_odd"></div>
+            <div class="snake_box box_even"></div>
+          </div>
+        </div>
+      </div>
+      <div id="score_board_container">
+        <p id="score_text">Score:</p>
+        <div class="score_content" id="frog_score">
+          <img class="score_img" id="frog_img" src="CSS/Img/Frog.png" />
+          <p class="score_img_colon" id="frog_img_colon">:</p>
+          <h1 class="score_number" id="frog_score_number">0</h1>
+        </div>
+        <div class="score_content" id="trophy_score">
+          <img class="score_img" id="trophy_img" src="CSS/Img/Trophy.png" />
+          <p class="score_img_colon" id="trophy_img_colon">:</p>
+        </div>
+        <img id="snake_img" src="CSS/Img/Snake.png" />
+      </div>
+    </div>
+    <script type="text/Javascript" src="Javascript/script.js"></script>
+  </body>
+</html>
