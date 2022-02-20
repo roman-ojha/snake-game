@@ -9,13 +9,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #bde8bd;
+  background-color: #bde8bdcc;
 }
 
 #main_game_container {
   width: 55%;
   height: 80%;
-  background-color: #a64d4d;
+  background-color: #21462d;
   border-radius: 10px;
   display: flex;
   justify-content: center;

@@ -62,12 +62,12 @@ class Snake extends Frog {
         this.surfaceObj.surface_2D[this.snakeCurrentPosition[i][0]][
           this.snakeCurrentPosition[i][1]
         ].style =
-          "background-color: rgb(215 221 216);    border: 2px solid #bf7272;box-sizing: border-box;";
+          "background-color: rgb(215 221 216); border: 4px solid rgb(103 62 62); box-sizing: border-box;";
       } else {
         this.surfaceObj.surface_2D[this.snakeCurrentPosition[i][0]][
           this.snakeCurrentPosition[i][1]
         ].style =
-          "background-color: rgb(86 105 61);    border: 2px solid #bf7272;;box-sizing: border-box;";
+          "background-color: rgb(41 76 38); border: 5px solid rgb(170 208 156); box-sizing: border-box;";
       }
     }
   }
