@@ -3,3 +3,5 @@
 # Snake game for Casual play/Entertainment for Game Lover
 
 [<img src="interface/Home.png" alt="webHome"></img>](interface/Home.png)
+
+### NOTE: This project old project when I don't have knowledge about canvas, that's why I have use basic html to build snake platform
